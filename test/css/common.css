@@ -1,0 +1,246 @@
+/*清除*/
+
+body, h1, h2, h3, h4, h5, h6, ul, ol, li, p, dl, dt, dd, table, th, td {
+    margin: 0;
+    padding: 0
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    border: 0;
+}
+
+em, i {
+    font-style: normal;
+}
+
+input, select, button, textarea, table {
+    margin: 0;
+    font-family: inherit;
+    font-size: 100%
+}
+
+b, strong, h1, h2, h3, h4, h5, h6, th {
+    font-weight: normal;
+    font-size: 100%;
+}
+
+input {
+    outline: none;
+}
+
+a, u, s {
+    text-decoration: none;
+}
+
+.clear:before, .clear:after {
+    clear: both;
+    display: block;
+    content: " ";
+    overflow: hidden;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+}
+
+.mar {
+    margin: 0 auto;
+    width: 1150px;
+}
+
+/*顶部*/
+.top-box {
+    background: #70ad46;
+
+}
+
+.com-top {
+
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.logo-com {
+    float: left;
+    margin-top: 10px;
+}
+
+.login-com {
+    float: right;
+    color: #ffffff;
+}
+
+.login-com a {
+    line-height: 56px;
+    color: #ffffff;
+}
+
+.com-search-in1 {
+    width: 794px;
+    height: 36px;
+    background: #ffffff;
+    border-radius: 12px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 70px;
+    position: relative;
+}
+
+.com-search-in1 span {
+
+    color: #333;
+    line-height: 36px;
+    margin-left: 23px;
+
+}
+.com-search-in1 ul{
+    position: absolute;
+    top:25px;
+    left: 0px;
+    background: #ffffff;
+    width: 70px;
+    color: #333333;
+    text-align: center;
+    line-height: 30px;
+    display: none;
+    padding-top: 10px;
+}
+.com-search-in1 li{
+    cursor: pointer;
+}
+.com-search-in1 li:hover{
+    background: #cccccc;
+}
+
+.com-search-in1 i {
+    border-right: solid 4px rgba(0, 0, 0, 0);
+    border-left: solid 4px rgba(0, 0, 0, 0);
+    border-top: solid 4px #999999;
+    vertical-align: -11px;
+    margin: 0 12px 0 8px;
+}
+
+.com-search-in1 u {
+    display: inline-block;
+    height: 21px;
+    vertical-align: -5px;
+    border-right: 1px solid #cccccc;
+}
+
+.com-search-in1 input {
+    margin-left: 10px;
+    border: none;
+    color: #333333;
+    width: 400px;
+}
+
+.com-search-in1 button {
+    font-size: 16px;
+    color: #ffffff;
+    float: right;
+    background: url("../img/button-bg.png");
+    border-radius: 0 10px 10px 0;
+    border: none;
+    width: 124px;
+    height: 36px;
+}
+
+.com-search-in1 button:hover {
+    background: #427438;
+}
+
+.com-search {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url("../img/icon.png");
+    vertical-align: -4px;
+    margin-right: 7px;
+}
+
+/*底部*/
+
+.home-bottom {
+    background: #242623;
+}
+
+.bottom-out {
+    width: 1150px;
+    margin: 0 auto;
+    margin-top: 57px;
+}
+
+.bottom-l {
+    display: block;
+    width: 948px;
+    float: left;
+    font-size: 11px;
+    color: #acadac;
+    padding: 45px 0;
+    line-height: 35px;
+
+}
+
+.bottom-l a {
+    color: #acadac;
+}
+
+.bottom-l span {
+    display: block;
+    border-bottom: 1px solid #444444;
+    margin: 20px 0;
+}
+
+.bottom-l-p1 {
+    margin-left: 40px;
+}
+
+.bottom-l-p1 a:hover {
+    color: #dcdddc;
+}
+
+.bottom-r {
+    width: 152px;
+    height: 180px;
+    float: right;
+    font-size: 11px;
+    color: #acadac;
+    text-align: center;
+    margin-top: 41px;
+}
+.bottom-r p {
+    margin-top: 8px;
+}
+
+
+
+/*页码*/
+.page-box{
+    text-align: center;
+    margin: 40px 0 30px ;
+
+}
+.page-box *{
+    padding: 0 11px;
+}
+.page-box a{
+    margin: 0 3px;
+    text-align: center;
+    display: inline-block;
+
+    height: 30px;
+    line-height: 30px;
+    color: #333333;
+    border: 1px solid #cccccc;
+}
+
+.page-box a:hover{
+    background: #f5f5f5;
+}
+.page-checked{
+    background: #f5f5f5;
+}
+

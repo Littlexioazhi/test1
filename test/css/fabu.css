@@ -1,0 +1,233 @@
+a {
+    color: #666666;
+}
+
+body {
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.5;
+    font-family: 微软雅黑;
+}
+
+input {
+    color: #333333;
+}
+
+h2 {
+    display: block;
+    margin: 0 auto;
+    width: 1150px;
+    text-align: center;
+    font-size: 24px;
+    color: #333333;
+    margin-top: 23px;
+
+}
+
+h3 {
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.identity {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.fabu-content span {
+    display: block;
+
+}
+
+.fabu-content input {
+    padding: 0 10px;
+    /*padding: 0 10px 0 0;*/
+
+}
+
+.identity i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../img/icon.png") 0 -159px;
+    vertical-align: -3px;
+    margin-right: 7px;
+}
+
+.identity s {
+    margin-left: 15px;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.span-r {
+    margin-left: 29px;
+}
+
+.identity .identity-checked {
+    background: url("../img/icon.png") -23px -159px;
+}
+
+.basic {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.basic .xiaoqu-name {
+    width: 325px;
+    height: 35px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.basic b {
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    line-height: 35px;
+    text-align: left;
+    padding: 0 15px;
+    margin-right: 10px;
+}
+
+.basic input {
+    width: 60px;
+    border: none;
+}
+
+.bas-span-r1 {
+    margin-left: 28px;
+}
+
+.bas-span-r1 input {
+    width: 50px;
+}
+
+.basic s {
+    display: inline-block;
+    width: 70px;
+    height: 35px;
+    border: 1px solid #cccccc;
+    padding: 0 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    line-height: 35px;
+}
+
+.basic i {
+    border-right: solid 4px rgba(0, 0, 0, 0);
+    border-left: solid 4px rgba(0, 0, 0, 0);
+    border-top: solid 4px #999999;
+    margin-top: 15px;
+    float: right;
+
+}
+
+.bas-span-r2 b {
+    width: 130px;
+    height: 35px;
+    padding-left: 0;
+    text-align: left;
+}
+
+.bas-span-r2 input {
+
+    width: 72px;
+
+}
+
+.bas-span-r2 s {
+    width: 130px;
+    height: 35px;
+}
+
+.bas-span-r2 {
+    margin-left: 32px;
+}
+
+.fabu-content span {
+    margin-bottom: 20px;
+}
+
+u {
+    color: #ee7a3f;
+}
+
+.detail {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.detail input {
+    width: 530px;
+    height: 35px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+.detail b{
+    display: inline-block;
+    width: 110px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: url("../img/icon.png")0 171px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.detail .detail-checked{
+    background: url("../img/icon.png")0 126px;
+}
+.detail button{
+    width: 166px;
+    height: 42px;
+    border: none;
+    border-radius: 5px;
+    background:#75a749;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 80px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.det-span-r{
+    margin-left: 80px;
+}
+.detail p{
+    color: #999 ;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.else{
+    margin: 0 auto;
+    width: 1150px;
+}
+.else input{
+    width: 184px;
+    height: 35px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    text-align: left;
+}
+.else-span-r{
+    margin-left: 13px;
+}
+.else button{
+    width: 322px;
+    height: 42px;
+    border: none;
+    border-radius: 5px;
+    background:#75a749;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 80px;
+    cursor: pointer;
+    font-size: 18px;
+ }

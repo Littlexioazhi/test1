@@ -1,0 +1,365 @@
+body {
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 1.5;
+    font-family: 微软雅黑;
+}
+
+a {
+    color: #ffffff;
+}
+
+.home-bg {
+    padding-top: 1px;
+    height: 648px;
+    background: url("../img/home-bg.png") center 0 no-repeat;
+    background-attachment: fixed;
+}
+
+.home-top {
+
+    width: 1150px;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+.logo {
+    float: left;
+}
+
+.login {
+    float: right;
+}
+
+.hometext {
+    display: block;
+    margin: 0 auto;
+    margin-top: 114px;
+}
+
+.big-search {
+    width: 886px;
+    height: 150px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+    margin-top: 56px;
+}
+
+.search-sou {
+    margin-top: 68px;
+    margin-left: 65px;
+    color: #acadac;
+}
+
+.search-sou a {
+    color: #acadac;
+}
+
+.search-sou a:hover {
+    color: #ffffff;
+}
+
+.search-top {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 42px;
+}
+
+.search-top-l {
+    margin-left: 69px;
+}
+
+.search-out1 s {
+    display: block;
+    width: 0;
+    height: 0;
+    border-right: solid 10px rgba(0, 0, 0, 0);
+    border-left: solid 10px rgba(0, 0, 0, 0);
+    border-bottom: solid 10px #ffffff;
+    margin-left: 44px;
+}
+
+.search-in1 {
+    width: 794px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 12px;
+    position: relative;
+}
+
+.search-in1 ul{
+    position: absolute;
+    top:32px;
+    left: 0px;
+    background: #ffffff;
+    width: 70px;
+    color: #333333;
+    text-align: center;
+    line-height: 30px;
+    display: none;
+    padding-top: 10px;
+}
+.search-in1 li{
+    cursor: pointer;
+}
+.search-in1 li:hover{
+    background: #cccccc;
+}
+.search-in1 span {
+    cursor: pointer;
+    color: #333;
+    line-height: 50px;
+    margin-left: 23px;
+
+}
+
+.search-in1 i {
+    border-right: solid 4px rgba(0, 0, 0, 0);
+    border-left: solid 4px rgba(0, 0, 0, 0);
+    border-top: solid 4px #999999;
+    vertical-align: -10px;
+    margin: 0 12px 0 8px;
+}
+
+.search-in1 u {
+    display: inline-block;
+    height: 28px;
+    vertical-align:-8px;
+    border-right: 1px solid #cccccc;
+}
+
+.search-in1 input {
+    margin-left: 10px;
+    border: none;
+    color: #333;
+    width: 400px;
+
+}
+
+.search-in1 button {
+    font-size: 16px;
+    color: #ffffff;
+    float: right;
+    background: #70ad46;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    width: 124px;
+    height: 50px;
+}
+
+.search-in1 button:hover {
+    background: #427438;
+}
+
+.search {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url("../img/icon.png");
+    vertical-align: -4px;
+    margin-right: 7px;
+}
+
+.search-box {
+
+    position: relative;
+}
+
+.search-out1 {
+
+    position: absolute;
+    left: 50%;
+    margin-left: -400px
+
+}
+
+.search-out2 {
+
+    position: absolute;
+    left: 50%;
+    margin-left: -280px;
+
+}
+
+.search-out2 s {
+    display: block;
+    width: 0;
+    height: 0;
+    border-right: solid 10px rgba(0, 0, 0, 0);
+    border-left: solid 10px rgba(0, 0, 0, 0);
+    border-bottom: solid 10px #70ad46;
+    margin-left: 27px;
+}
+
+.search-in2 {
+    display: block;
+    width: 521px;
+    height: 50px;
+    background: #70ad46;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.search-in2:hover {
+    background: #427438;
+
+}
+
+
+
+.text-bg {
+    height: 120px;
+    background: #eeeeee;
+}
+
+.text {
+    width: 1150px;
+    margin: 0 auto;
+
+}
+
+.text-inline {
+    display: inline-block;
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 124px;
+    margin-top: 33px;
+}
+
+.text-inline span {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 50px;
+
+}
+
+.text-inline-right {
+    margin-right: 0;
+}
+
+.more {
+    display: block;
+    margin: 0 auto;
+    color: black;
+    width: 1150px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 116px;
+}
+
+.more p {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.more s {
+    display: inline-block;
+    float: right;
+}
+
+.more span, s {
+    color: #70ad46;
+}
+
+.more s {
+    font-size: 16px;
+}
+
+
+
+.pic-out {
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+.prev{
+    position: absolute;
+    top:50%;
+    margin-top: -20px;
+    left: 15px;
+}
+.next{
+    position: absolute;
+    top:50%;
+    margin-top: -20px;
+    right: 65px;
+}
+.pic-l {
+    display: inline-block;
+    width: 24px;
+    height: 41px;
+    background: url("../img/icon.png") 0 -32px no-repeat;
+    margin-right: 24px;
+    vertical-align: 127px;
+
+}
+
+.pic-r {
+    display: inline-block;
+    width: 24px;
+    height: 41px;
+    background: url("../img/icon.png") -34px -32px no-repeat;
+    margin-left: 24px;
+    vertical-align: 127px;
+    position: absolute;
+    top:50%;
+    margin-top: -20px;
+}
+
+.pic-m {
+    width: 2318px;
+    margin-top: 3px;
+    margin-left: 3px;
+    position: relative;
+}
+
+.pic-m li {
+    float: left;
+    width: 254px;
+    height: 288px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: left;
+    margin-right: 18px;
+
+
+}
+
+.pic-m p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    line-height: 35px;
+}
+
+.pic-m span {
+    font-size: 14px;
+    color: #666666;
+}
+
+.pic-m s {
+    font-size: 20px;
+    color: #70ad46;
+}
+
+.pic-m .pic-in-r {
+    margin-right: 0;
+}
+
+.banner{
+    width: 1155px;
+    height: 314px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto ;
+}
+
+
+

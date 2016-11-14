@@ -1,0 +1,228 @@
+body {
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.5;
+    font-family: 微软雅黑;
+}
+
+a {
+    color: #666666;
+}
+
+.way {
+    margin-top: 20px;
+    background: #eeeeee;
+    border: 1px solid #d5d5d5;
+}
+
+.yulan-box {
+    margin: 0 auto;
+    width: 1150px;
+    margin-top: 20px;
+}
+
+.yulan-pic {
+    width: 453px;
+    float: left;
+}
+
+.yulan-pic img {
+    margin-right: 10px;
+    float: left;
+    margin-bottom: 10px;
+
+}
+
+.yulan-pic .yulan-pic-r {
+    margin-right: 0;
+    margin-left: -1px;
+}
+
+.yulan-detail {
+    float: left;
+    margin-left: 39px;
+
+}
+
+.yulan-detail h2 {
+    font-size: 26px;
+    color: #333333;
+    line-height: 50px;
+}
+
+.yulan-detail span {
+    font-size: 22px;
+    color: #eb5f00;
+}
+
+.yulan-detail p {
+    line-height: 38px;
+}
+.tel-box{
+    margin-top: 73px;
+}
+.phone-img{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: url("../img/icon.png") -64px -32px;
+    vertical-align: -10px;
+    margin-right: 10px;
+}
+.tel-box .tel-a{
+    color: #ffffff;
+    font-size: 18px;
+    display: inline-block;
+    width: 296px;
+    height: 70px;
+    background: #75a749;
+    border-radius:8px ;
+    line-height: 70px;
+    text-align: center;
+    margin-right: 20px;
+}
+.tel-box .tel-a:hover{
+    background: #598038 ;
+}
+.tel-box b{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+}
+.shoucang{
+    background: url("../img/icon.png") -28px 0;
+}
+.fenxiang{
+    background: url("../img/icon.png") -59px 0;
+}
+.tel-box s{
+    margin-left: 30px;
+}
+.peizhi{
+    width: 1150px;
+    margin: 0 auto;
+}
+.peizhi h2{
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.peizhi p{
+    border-top:1px solid #cccccc;
+    padding-top: 19px;
+}
+.peizhi i{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    vertical-align:-6px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.bed{
+    background: url("../img/icon.png") -95px 5px;
+}
+.cloths{
+    background: url("../img/icon.png") -121px 3px;
+}
+.sofa{
+    background: url("../img/icon.png") -152px 4px;
+}
+.book{
+    background: url("../img/icon.png") -182px 2px;
+}
+.tv{
+    background: url("../img/icon.png") -209px 3px;
+}
+.ice{
+    background: url("../img/icon.png") -232px 3px;
+}
+.wei{
+    background: url("../img/icon.png") -259px  4px;
+}
+.dian{
+    background: url("../img/icon.png") -288px 3px;
+}
+.wash{
+    background: url("../img/icon.png") -319px 2px ;
+}
+.air{
+    background: url("../img/icon.png") 2px -81px;
+}
+.hot{
+    background: url("../img/icon.png") -24px -82px;
+}
+.int{
+    background: url("../img/icon.png") -54px -82px;
+}
+.heat{
+    background: url("../img/icon.png") -84px -81px;
+}
+.map{
+    width: 1150px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.map h2{
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 50px;
+
+}
+.guess{
+    width: 1150px;
+    margin: 0 auto;
+}
+.guess h2 {
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 50px;
+    border-bottom: 1px solid #cccccc;
+}
+.guess-m {
+    display: inline-block;
+    width: 1150px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.guess-m li {
+    float: left;
+    width: 264px;
+    height: 288px;
+    text-align: left;
+    margin-left: 22px;
+
+}
+
+.guess-m p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    line-height: 45px;
+}
+
+.guess-m span {
+    font-size: 14px;
+    color: #666666;
+    display: block;
+    line-height: 33px;
+}
+.guess-m i{
+    display: inline-block;
+    width: 10px;
+    height: 13px;
+    background: url("../img/icon.png") 11px 0;
+    margin-right: 7px;
+
+}
+
+.guess-m .guess-in-r {
+    margin-right: 0;
+}
