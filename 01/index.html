@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>my resume</title>
+</head>
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.8/jquery.fullPage.css"/>-->
+<link rel="stylesheet" href="css/fullPage.css"/>
+<link rel="stylesheet" href="css/clear.css">
+<link rel="stylesheet" href="css/01.css">
+<body>
+<div id="fullpage">
+    <div class="section slide1">
+        <div style="height: 40%;">
+            <div class="musicbox">
+                <audio src="music/Climb.mp3" data-autoplay data-loop></audio>
+                <img src="img/music.png" alt="">
+            </div>
+            <div class="tit">个人简历</div>
+            <h2>感谢您的开启</h2>
+        </div>
+        <div style="height: 60%">
+            <div class="man"></div>
+            <i class="next"></i>
+        </div>
+    </div>
+    <div class="section">
+        <div class="self">
+            <div style="height: 50%;">
+                <div class="musicbox">
+                    <audio src="music/Climb.mp3" data-autoplay data-loop></audio>
+                    <img src="img/music.png" alt="">
+                </div>
+                <h1>基本资料</h1>
+                <div class="pto1"></div>
+            </div>
+            <div style="height: 50%;position: relative;">
+                <div style="width: 80%;margin:0 auto;margin-top: -20px;">
+                    <p style="margin-top: 20px">姓名：苏有军</p>
+                    <p>性别：男</p>
+                    <p>学历：本科</p>
+                    <p>工作经验：2年</p>
+                    <p>期望职位：web前端工程师</p>
+                    <p>联系电话：18848958788</p>
+                    <p>我的邮箱：1737224906@qq.com</p>
+                </div>
+                <i class="next1" style=""></i>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+      <div class="self">
+        <div  style="height:50%">
+          <div class="musicbox">
+            <audio src="music/Climb.mp3"></audio>
+            <img src="img/music.png" alt="图片未加载请刷新重试">
+          </div>
+        </div>
+        <div style="height:50%">
+          <div>
+            <span>html</span>
+            <div  class="loading"></div>
+          </div>
+          <div>
+            <span>css</span>
+            <div class="loading"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section"></div>
+    <div class="section"></div>
+    <div class="section"></div>
+    <div class="section"></div>
+
+</div>
+</body>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.js"></script>-->
+<script src="js/jquery2.0.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.8/jquery.fullPage.js"></script>-->
+<script src="js/fullpage.js"></script>
+<script src="js/01.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#fullpage').fullpage({
+            sectionsColor: ['#1e8fbb', '#f6bb43', '#39ac6b', '#724192',"#ed5564",'#2b9ea2','#36bc9b'],
+            navigation:true,
+        })
+    });
+</script>
+</html>
